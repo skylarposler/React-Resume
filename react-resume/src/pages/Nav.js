@@ -6,6 +6,7 @@ function Navigation() {
         <nav>
             <ul className='navbar'>
                 <Link to='/'><li>Home</li></Link>
+                <Link to="/education"><li>Education</li></Link>
             </ul>
         </nav>
     );

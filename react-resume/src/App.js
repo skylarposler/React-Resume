@@ -1,8 +1,9 @@
 import './App.css';
 import React from 'react';
-import HomePage from './pages/homepage';
+import HomePage from './pages/Homepage';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navigation from './pages/Nav';
+import Education from './pages/Education';
 
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
         <main>
         <Routes>
                 <Route exact path="/" element={<HomePage />} />
-                <Route path="/homepage" element={<HomePage />} />
+                <Route path="/HomePage" element={<HomePage />} />
+                <Route path="/Education" element={<Education />} />
         </Routes>
         </main>
 

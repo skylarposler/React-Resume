@@ -1,17 +1,17 @@
 import React from 'react';
 import Navigation from './Nav';
 
-function HomePage() {
+function Education() {
     return (
     <div>
         <header>
-            <h1>Homepage</h1>
+            <h1>Education</h1>
             <main>
-                <p>Testing homepage here!!</p>
+                <p>Testing education here!!</p>
             </main>
         </header>
     </div>
     );
 }
 
-export default HomePage;
+export default Education;

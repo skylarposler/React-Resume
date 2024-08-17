@@ -1,32 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&display=swap');
+
 .App {
   text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 200px;
+  width: 200px;
   pointer-events: none;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding-top: 30px;
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: #555;
+}
+
+.App-header h1 {
+  position: relative;
+  top: 10px;
+  left: 10px;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h1 {
+  padding-bottom: 30px;
+}
+
+.container {
+  padding-top: 20px;
+  position: absolute;
+  margin: 0px;
+  width: 170px; 
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #dfbedc;
+  padding-right: 40px;
+  display: block;
+  padding: 9px 18px;
+}
+
+ul {
+  list-style-type: none;
+  display: block;
+  float: left;
+  width: 60px;
+  padding: 0;
+  margin: 5;
+  color: rgb(53, 53, 73);
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+ul li {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li:hover {
+  display:block;
+  background-color: rgb(103, 148, 207);
+  width: 105px;
+}
+
+body {
+  background-color: rgb(53, 53, 73);
+  font-family: 'Montserrat';
+  color: white;
+  text-align: center;
+}
+
+footer {
+  font-family: 'Montserrat';
+  font-style: italic;
 }

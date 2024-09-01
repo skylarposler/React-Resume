@@ -45,6 +45,7 @@ h1 {
   padding-right: 40px;
   display: block;
   padding: 9px 18px;
+  text-decoration: none;
 }
 
 ul {
@@ -55,21 +56,31 @@ ul {
   padding: 0;
   margin: 5;
   color: rgb(53, 53, 73);
-  text-align: center;
   text-decoration: none;
-  font-size: 17px;
 }
 
-ul li {
+ul a {
   display: block;
   padding: 8px 16px;
   text-decoration: none;
+  font-weight: bolder;
 }
 
-li:hover {
+a:link {
+  text-decoration: none;
+
+}
+
+a:hover {
   display:block;
   background-color: rgb(103, 148, 207);
   width: 105px;
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+  color:rgb(53, 53, 73);
 }
 
 body {
@@ -77,6 +88,8 @@ body {
   font-family: 'Montserrat';
   color: white;
   text-align: center;
+  background-position: center;
+  background-size: cover;
 }
 
 footer {

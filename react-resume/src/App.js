@@ -15,7 +15,7 @@ function App() {
         <Navigation />
         <header className='App-Header'>
         <img src="./assets/images/ReactResumeLogo.png" className="App-logo" alt="logo" />
-        <h1>Skylar's React Resume</h1>
+        <h1>Skylar Posler's React Resume</h1>
         </header>
         
         <main>
